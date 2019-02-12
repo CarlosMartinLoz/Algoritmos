@@ -1,0 +1,15 @@
+Algoritmo de Dijkstra que lee grafos de un archivo y busca la ruta más corta. 
+
+El fichero es graph.text para la introducción de grafos se debe hacer con la siguiente estructura:
+
+P/I=X/G=Y
+
+P=grafo padre
+I= grafo hijo 1
+G = grafo hijo 2
+X e Y = distancia
+
+Y debe seguir las siguientes normas:
+-Cada grafo debe estar en una línea
+-Si se indica un grafo hijo debes representarlo en alguna linea obligatoriamente.
+- No todos los grafos tienen por que tener hijos en caso de no tenerlos simplemente se pondra el nombre del grado en una línea.
